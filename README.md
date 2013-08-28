@@ -1,6 +1,7 @@
-# Calagator
+Calagator  [![Build Status](https://travis-ci.org/ColbyAley/calagator.png?branch=master)](https://travis-ci.org/ColbyAley/calagator)
+===
 
-A wrapper for [Calagator's](http://calagator.org) undocumented API. Using HTTParty for requests, Mechanize for posting to forms, and RSpec and Webmock for testing.
+A wrapper for [Calagator's](http://calagator.org) undocumented API. Using HTTParty for requests, Mechanize for posting to forms (TODO), and RSpec and Webmock for testing.
 
 ## Installation
 
@@ -24,12 +25,16 @@ The gem allows for retrieving infomation about venues and events, as well as cre
 
     Calagator.events
     Calagator.event(id)
-    Calagator.create_event()
 
 #### Venues
 
     Calagator.venues
     Calagator.venue(id)
+
+## Todo
+
+* Use Mechanize to create events.
+* Sorting of events and venues.
 
 ## Contributing
 
