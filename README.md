@@ -1,4 +1,4 @@
-Calagator  [![Build Status](https://travis-ci.org/ColbyAley/calagator.png?branch=master)](https://travis-ci.org/ColbyAley/calagator)
+Calagator  [![Build Status](https://travis-ci.org/ColbyAley/Calagator.png?branch=master)](https://travis-ci.org/ColbyAley/Calagator)
 ===
 
 A wrapper for [Calagator's](http://calagator.org) undocumented API. Using HTTParty for requests, Mechanize for posting to forms (TODO), and RSpec and Webmock for testing.
